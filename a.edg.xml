@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<edges>
+  <edge from="a" to="b" id="straight" type="normal" />
+  <edge from="a" to="c" id="left" type="normal" />
+  <edge from="a" to="d" id="right" type="normal" />
+</edges>
