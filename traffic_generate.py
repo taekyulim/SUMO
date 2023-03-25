@@ -99,6 +99,9 @@ def generate_edge_xml(center, straight, left, right):
     file_name = f"{center}.edg.xml"
     with open(file_name, "wb") as file:
         tree.write(file, encoding="utf-8", xml_declaration=True)
+        
+def generate_route_tag():
+    
 
 # def main():
 #     parser = argparse.ArgumentParser(description="Get Traffic Volume in specific route and time")
